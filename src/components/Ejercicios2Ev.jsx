@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Ejercicio2 extends React.Component {
   constructor(props) {
@@ -59,6 +60,7 @@ class Ejercicio2 extends React.Component {
           </li>
         </ul>
       </div>
+      
     );
   }
 }

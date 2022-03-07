@@ -1,6 +1,10 @@
 import React from 'react';
 import './style.css';
 import Ejercicios2Ev from './components/Ejercicios2Ev';
+import Ejercicio from './components/Ejercicio';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function App() {
   return (
@@ -14,6 +18,7 @@ function App() {
         tuyos.
       </p>
       <Ejercicios2Ev />
+      <Ejercicio/>
     </div>
   );
 }
